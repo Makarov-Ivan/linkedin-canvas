@@ -27,4 +27,10 @@ window.addEventListener('load', () => {
     };
     const squareParams = getSquareParams(ctx, 1);
     ctx.clearRect(squareParams.x, squareParams.y, squareParams.width, squareParams.height);
+
+    ctx.fillStyle = 'red';
+    ctx.lineWith = 10;
+    ctx.strokeStyle = 'black'
+    ctx.fillRect(0, 0, 100, 20)
+    ctx.strokeRect(0, 0, 100, 20)
 })
